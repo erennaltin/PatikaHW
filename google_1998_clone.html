@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Google by Eren Altın - Patika</title>
+    <style>
+      * {
+        font-size: 13px;
+        padding: 0;
+        margin: 0;
+      }
+      .centeredContainer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .HorizontalCenteredContainer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+      }
+      .searchBarContainer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #eeeeee;
+        height: 60px;
+        width: 88vw;
+      }
+      input[type="text"] {
+        height: 21px;
+        width: 317px;
+      }
+      button {
+        padding: 1.5px 5px;
+      }
+      .linkContainer {
+        width: 88vw;
+        display: grid;
+        grid-column-gap: 2px;
+        margin-top: 2px;
+        grid-template-columns: 4fr 2fr 5fr;
+      }
+    </style>
+  </head>
+  <body>
+    <!--  Logo  -->
+    <div class="centeredContainer" style="margin-top: 8px; margin-bottom: 3px">
+      <img
+        src="https://web.archive.org/web/19981202230410im_/http://www.google.com/google.jpg"
+        alt="google logo"
+      />
+    </div>
+    <div class="centeredContainer">
+      <div class="searchBarContainer">
+        <p>Search the web using Google!</p>
+        <input type="text" />
+        <div class="buttonContainer">
+          <button>Google Search</button>
+          <button>I'm feeling lucky</button>
+        </div>
+      </div>
+    </div>
+    <div class="centeredContainer">
+      <div class="linkContainer">
+        <div
+          class="HorizontalCenteredContainer"
+          style="background-color: #7ee5da"
+        >
+          <p>Special Searches</p>
+          <a href="https://web.archive.org/web/19981202230410/http://www.google.com/stanford">Stanford Search </a>
+          <a href="https://web.archive.org/web/19981202230410/http://www.google.com/linux"> Linux Search </a>
+        </div>
+        <div
+          class="HorizontalCenteredContainer"
+          style="background-color: #70ccc2"
+        >
+          <a href="https://web.archive.org/web/19981202230410if_/http://www.google.com/help.html"> Help! </a>
+          <a href="https://web.archive.org/web/19981202230410if_/http://www.google.com/about.html"> About Google! </a>
+          <a href="https://web.archive.org/web/19981202230410if_/http://www.google.com/company.html"> Company Info </a>
+          <a href="https://web.archive.org/web/19981202230410if_/http://www.google.com/stickers.html"> Google Logos </a>
+        </div>
+        <div
+          class="HorizontalCenteredContainer"
+          style="background-color: #62b3aa"
+        >
+          <p>Get Google!</p>
+          <p>updates monthly:</p>
+          <input type="text" placeholder="your e-mail" />
+          <div class="buttonContainer">
+            <button>Subscrive</button>
+            <a href="https://web.archive.org/web/19981202230410/http://www.findmail.com/list/google-friends/"> Archive</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="centeredContainer" style="margin-top: 16px">
+      <p>Copyright ©1998 Google Inc.</p>
+    </div>
+  </body>
+</html>
