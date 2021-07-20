@@ -1,0 +1,98 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  background-color: black;
+}
+header ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  list-style-type: none;
+}
+header ul li {
+  padding: 15px;
+}
+header ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+article {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+}
+article h1 {
+  font-size: 36px;
+  width: 100%;
+}
+article p {
+  color: grey;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: red;
+  border-top: 1px solid #dadce0;
+}
+
+.aboutUs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transform: translateY(-20px);
+}
+.aboutUs h1 {
+  font-size: 40px;
+  border-bottom: 1px solid #dadce0;
+  width: 100%;
+  text-align: center;
+  padding: 8px;
+}
+.aboutUs h2 {
+  align-self: flex-start;
+  padding: 4px;
+}
+.aboutUs p {
+  padding: 4px;
+}
+.aboutUs ol {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  padding: 8px;
+}
+.aboutUs #eightyfour {
+  margin-top: 100px;
+}
+
+.aboutUsBody {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.communication {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+  overflow: hidden;
+}
+.communication section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+}
+
+/*# sourceMappingURL=style.css.map */
