@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Patika - Bootstrap HW1</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
+      crossorigin="anonymous"
+    />
+  </head>
+  <style>
+    body {
+      background-color: #e9ecef;
+    }
+  </style>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="./index.html"> Paspahalı Müzik </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="./index.html"
+              >
+                Anasayfa
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./products.html"> Ürünlerimiz </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./bio.html"> Hakkımızda </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="jumbotron text-center mt-5 text-danger">
+      <div class="container">
+        <h1 class="display-1">Merhaba!</h1>
+        <p class="lead">
+          Müzik Dükkanım sitemize hoş geldiniz!
+          <a href="./products.html"> Ürünlerimiz'e</a> buradan göz
+          atabilirsiniz!
+        </p>
+      </div>
+    </div>
+    <hr />
+    <div class="jumbotron text-center mt-5 text-warning">
+      <div class="container">
+        <h3>Sitemizde Bulunan Müzik Aletleri</h3>
+      </div>
+    </div>
+    <ul class="d-flex align-items-center justify-content-center flex-column">
+      <li>Gitar</li>
+      <li>Davul</li>
+      <li>Piyano</li>
+      <li>Keman</li>
+      <button class="btn btn-primary mt-4">
+        <a href="./bio.html" class="text-white text-decoration-none" > Hakkımızda </a>
+      </button>
+    </ul>
+  </body>
+</html>
