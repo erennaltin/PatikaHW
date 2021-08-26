@@ -1,0 +1,133 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.app {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #F5F5F5;
+  width: 100%;
+  height: 100vh;
+  flex-direction: column;
+}
+
+.title {
+  color: #EAD7D7;
+  font-size: 8rem;
+  font-weight: 400;
+}
+
+.todoPanel {
+  background-color: white;
+  box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.4);
+  width: 60%;
+}
+
+.Input {
+  display: flex;
+  align-items: center;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+  padding: 0 16px;
+}
+
+.Input input {
+  padding: 12px 0;
+  width: 100%;
+  border: none;
+  font-size: 1.5rem;
+  margin-left: 16px;
+  color: rgba(0,0,0,0.8);
+}
+
+.Input input:focus {
+  outline: none;
+}
+
+.Input input::placeholder {
+  color: rgba(0,0,0,0.2)
+}
+
+.todo-item {
+  display: flex;
+  align-items: center;
+  padding-right: 0;
+  padding-left: 24px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.todo-item:last-of-type {
+  border-bottom: none;
+}
+
+.todo-item p {
+  padding: 12px;
+  margin-left: 16px;
+  font-size: 1.5rem;
+  color: rgba(0,0,0,0.8);
+  transition: all 0.3s ease-in-out;
+  text-decoration: none;
+}
+
+.todo-item input {
+  margin-left: 16px;
+  font-size: 1.5rem;
+  color: rgba(0,0,0,0.8);
+  padding: 12px;
+  width: 100%;
+  border: none;
+}
+
+.todo-item input {
+  outline: none;
+  box-shadow: inset 0px 0px 5px 0 rgba(0,0,0,0.6);
+}
+
+.toggledTodo {
+ text-decoration: line-through !important;
+ color: rgba(0, 0, 0, 0.3) !important;
+}
+
+.checkButton {
+  transform: translateY(5px);
+  border: 0.5px solid rgba(0,0,0,0.6);
+  border-radius: 999px;
+  padding: 2px;
+}
+
+.deleteButton {
+  margin-left: auto;
+  margin-right: 12px;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 24px;
+  border-top: 2px solid rgba(0, 0, 0, 0.1);
+}
+
+.filterButtons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30%;
+}
+
+.filterButtons p {
+  margin-right: 5%;
+  padding: 8px 16px;
+  color: rgba(0,0,0,0.8);
+
+}
+
+.selected {
+  border: 1px solid rgba(175, 47, 47, 0.2);
+  border-radius: 4px;
+}
+
+.hidden {
+  opacity: 0;
+}
